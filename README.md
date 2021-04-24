@@ -1,21 +1,34 @@
 # Face-Expression-Recoginition
 It's a basic notebook of Face Expression Recoginition. This contains 7 classes angry, disgust, fear, happy, neutral, sad, surprise.
-Basic Sequential model built 
-Images are :
+Basic Sequential model to built this app, 
 
-  fear images are       4103
+Total params: 23,886,343
 
-  happy images are      7164
-  
-  sad images are        4938
-  
-  disgust images are    436
-  
-  angry images are      3993
-  
-  surprise images are   3205
-  
-  neutral images are    4982
+Trainable params: 23,877,127
 
+Non-trainable params: 9,216 
 
-Data Source:https://www.kaggle.com/sulthankhan/facial-expression-recognition
+# Dependencies
+  * Python 3.7x
+  
+  * Tensorflow
+  
+  * Keras
+  
+  * Numpy
+  
+  * Seaborn
+  
+  * Matplotlib
+  
+# Data 
+   * Train Data :Found 28821 images belonging to 7 classes.
+
+   * Validation Data :Found 7066 images belonging to 7 classes.
+    
+    Data Source:https://www.kaggle.com/sulthankhan/facial-expression-recognition
+
+# Running the model 
+Use the above script file to run your model.
+
+Built for Knowledge and Fun purpose.
